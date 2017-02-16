@@ -3,8 +3,16 @@ Given a plan as an array of strings and a legend to convert every character to t
 
 ## Sample input
 `````
-plan = ["*******************",
+    plan = ["*******************",
             "* !               *",
             "* O               *",
             "*******************"];
+    
+    
+    legend = {
+    '*' : Wall,
+    'O' : Snake,
+    '!' : Food,
+    ' ' : Blank
+    };
 ``````
